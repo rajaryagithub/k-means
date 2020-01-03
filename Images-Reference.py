@@ -77,7 +77,7 @@ import matplotlib.image as mpimg
 #
 # And here we go...
 
-img = mpimg.imread('../../doc/_static/stinkbug.png')
+img = mpimg.imread('Input-Faces/1_0_0_20161219140627985.jpg.chip.jpg')
 print(img)
 
 ###############################################################################
@@ -252,7 +252,7 @@ plt.colorbar(ticks=[0.1, 0.3, 0.5, 0.7], orientation='horizontal')
 
 from PIL import Image
 
-img = Image.open('../../doc/_static/stinkbug.png')
+img = Image.open('Input-Faces/1_0_0_20161219140627985.jpg.chip.jpg')
 img.thumbnail((64, 64), Image.ANTIALIAS)  # resizes image in-place
 imgplot = plt.imshow(img)
 
